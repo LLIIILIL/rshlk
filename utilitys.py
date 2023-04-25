@@ -34,7 +34,7 @@ def config_loader():
 
 
 def input_loader():
-    url_input = "vvvvzzv"
+    url_input = search(r'(https?:\/\/t\.me\/)?([^/]+)/(\d+)', ('https://t.me/vvvvzzv/37'))
     if url_input: 
         _, channel, post = url_input.groups()
         return channel, post
