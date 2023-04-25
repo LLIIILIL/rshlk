@@ -34,7 +34,7 @@ def config_loader():
 
 
 def input_loader():
-    url_input = "https://t.me/vvvvzzv/37"
+    url_input = "t.me/vvvvzzv/37"
     if url_input: 
         _, channel, post = url_input.groups()
         return channel, post
