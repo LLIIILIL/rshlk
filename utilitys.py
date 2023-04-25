@@ -34,7 +34,7 @@ def config_loader():
 
 
 def input_loader():
-    url_input = "vvvvzzv/37"
+    url_input = "vvvvzzv"
     if url_input: 
         _, channel, post = url_input.groups()
         return channel, post
